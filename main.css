@@ -1,36 +1,41 @@
 body {
-  font-family:sans-serif;
-}
-section{
-  Background-color:#eee;
-}
-article{
-  background-color:#fff;
-}
-footer{
-  border:solid 1px;
-}
-a
-{
-  color:green;
+  font-family: sans-serif;
 }
 
-section, article, footer{
-  padding:10px;
-  border-radius:16px;
+section {
+  Background-color: #eee;
 }
+
+article {
+  background-color: #fff;
+}
+
+footer {
+  border: solid 1px;
+}
+
+a {
+  color: green;
+}
+
+section, article, footer {
+  padding: 10px;
+  border-radius: 16px;
+}
+
 nav {
   margin: 10px;
-    > a {
-    margin: 10px;
-    color:gray;
-    text-decoration:none;
-  } 
-  
+}
+nav > a {
+  margin: 10px;
+  color: gray;
+  text-decoration: none;
 }
 
 div > p {
-  color:red;
+  color: red;
 }
 
-article + article {margin-top:10px}
+article + article {
+  margin-top: 10px;
+}
